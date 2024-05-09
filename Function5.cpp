@@ -4,7 +4,7 @@ using namespace std;
 
 int NextEven(int n){
 
-    return (n % 2) + n;
+    return (n / 2) * 2 + 2;
 }
 int main(){
     int n;
