@@ -2,9 +2,9 @@
 
 using namespace std;
 
-float AverageOfNumbers(float a, float b, float c, float d)
+float AverageOfNumbers(int a, int b, int c, int d)
 {
-    return (a + b + c + d)/4;
+    return (a+b+c+d)/4.0;
 }
 int main(){
 
